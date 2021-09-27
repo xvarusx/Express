@@ -1,0 +1,18 @@
+{
+  "name": "test_middleware",
+  "version": "1.0.0",
+  "description": "gomycode middelware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "oussema",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "sass": "^1.42.1"
+  }
+}
