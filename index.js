@@ -10,6 +10,7 @@ const myLogger = function (req, res, next) {
   next();
 };
 app.use(myLogger);
+app.use(express.static(path.join(__dirname, "view")));
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./view/index.html"));
 });
